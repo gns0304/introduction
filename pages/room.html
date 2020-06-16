@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>책상 위</title>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="room.css" rel="stylesheet" type="text/css">
+	
+<script type="text/javascript">
+	$(window).on('load',function(){
+			$('#myModal').modal('show');
+	});
+</script>
+</head>
+
+<body>
+	
+	<header>
+		<h1>책상 위</h1>
+	</header>
+    
+	<nav>
+		<ul>
+			<li><a onclick="history.go(-1)">이전 단계로</a></li>
+			<li><a href="../index.html">처음화면으로</a></li>
+			<li><a href="#">마지막화면으로</a></li>
+		</ul>
+	</nav>
+	
+	<article>
+	
+		<iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/7t2AMjtVv28?controls=0?amp;autoplay=1&amp;loop=1;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+		<div id = "contents-box">
+	
+			<div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  				<div class="modal-dialog modal-lg">
+    				<div class="modal-content">
+						<h3>당신은 편지에 쓰여있는 주소에 따라 그가 거처하는 곳에 도착했습니다.<br>
+							불은 꺼져 어두컴컴하고, 정리가 잘 되어있지 않아 보입니다.<br>
+							<u>노란색 조사 박스에 커서를 올리거나 붉은색 조사 박스를 클릭</u>하여 대상을 조사할 수 있습니다.<br>
+							조사한 내용을 다시 보고해야하니 잘 기억해두도록 합시다.
+						</h3>
+					</div>
+			  	</div>
+			</div>
+	  
+			<div id="myModalProgram" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						
+						<h3>그가 사용할 수 있는 프로그램들인 것 같다.</h3>
+						
+					
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Photoshop.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-success  " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+   									<span>잘 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Premiere Pro.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-warning  " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+   									<span>그럭저럭 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/After Effects.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-danger  " role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+   									<span>조금 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/InDesign.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-danger  " role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+   									<span>조금 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Audition.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-danger " role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+   									<span>조금 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Dreamweaver.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-warning  " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+   									<span>그럭저럭 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Sketch Up.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-warning  " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+   									<span>그럭저럭 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Python.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-success  " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+   									<span>잘 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<span style = "margin-top: 10px;">
+							<div style = "float: left;">
+								<img src="../img/icon/Visual Studio.png" width="50">
+							</div>
+							<div class="progress" style="float:left; margin-left: 3%; margin-top: 12px; width: 90%;">
+  								<div class="progress-bar progress-bar-warning  " role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+   									<span>그럭저럭 다룰 수 있어 보인다.</span>
+  								</div>
+							</div>
+						</span>
+						<div id = "btn">
+							<h3>확인하였으면 <a id="return_btn1">여기</a>를 눌러 다른 걸 좀 더 조사해보자.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="myModalDocs" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<a tabindex="0" class="btn btn-danger" id = "return_btn2" role="button" >
+							<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+							<span> 돌아가기</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="myModalPics" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						<a tabindex="0" class="btn btn-danger" id = "return_btn3" role="button"  >
+							<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+							<span> 돌아가기</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="myModalQuestion" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+
+						<h3>
+						켜져있는 컴퓨터에는 비밀번호가 걸려있다. 비밀번호는 숫자이며 힌트를 통해 비밀번호를 풀 수 있을 것 같다.<br>
+						힌트 : 영화 감상 시간 + 브런치의 글 개수
+						</h3>
+
+						<div id="wrong_pw" style = "display: none">
+							<h3>맞지 않는 비밀번호 같다. 다시 한 번 생각해보자.</h3>
+						</div>
+
+						<div id="right_pw" style = "display: none">
+							<h3>비밀번호가 맞는 것 같다.</h3>
+						</div>
+
+
+						<div class="form-inline" id="form-inline">
+						  <div class="form-group">
+							<label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+							<div class="input-group">
+							  <div class="input-group-addon">비밀번호</div>
+							  <input type="text" class="form-control" id="password_box">
+							</div>
+						  </div>
+						  <button id="okay" class="btn btn-primary">로그인</button>
+						</div>
+
+						<div id = "test" style="display: none; ">
+							<h3 style="margin-bottom: 15px;">
+								노트북 컴퓨터에서 무엇부터 조사할까?
+							</h3>
+							<a tabindex="0" class="btn btn-danger" role="button" id = "program_btn">
+								<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+								<span> 설치되어있는 프로그램을 확인한다.</span>
+							</a>
+							<a tabindex="0" class="btn btn-danger" role="button" id = "docs_btn">
+								<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+								<span> 최근 사용한 문서 파일을 열어본다.</span>
+							</a>
+							<a tabindex="0" class="btn btn-danger" role="button" id = "pics_btn">
+								<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+								<span> 사진 폴더에서 사진을 확인한다. </span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id = "btn-notebook">
+				<a id="notebook" tabindex="0" class="btn btn-danger" role="button">
+					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div id = "btn-book">
+				<a id="book" tabindex="0" class="btn btn-warning" role="button" data-toggle="popover" data-trigger="focus" title="책장의 책들" data-content = "책장에는 프로그래밍 언어 서적과 만화 작법 서적, 디자인 관련 서적, 여러 단편소설들이 꽂혀있다." >
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div id = "btn-pad">
+				<a id="pad" tabindex="0" class="btn btn-danger" role="button" data-toggle="popover" data-placement="left" title="글이 적혀있는 아이패드" data-content = "몇 개의 읽을 만한 글이 적혀있다. 서평이나 콘텐츠에 관한 글들이다. (클릭하면 브런치로 이동합니다)" onclick = "window.open('https://brunch.co.kr/@gns0304#articles')">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div id = "btn-monitor">
+				<a id="monitor" tabindex="0" class="btn btn-warning" role="button" data-toggle="popover" data-trigger="focus" title="모니터에 띄어져 있는 창들" data-content = "모니터 화면에는 홈트레이딩을 통한 주식 거래의 흔적이 남아있다. 곳곳에 경제 및 사회 뉴스가 보인다. " >
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div id = "btn-speaker">
+				<a id="speaker" tabindex="0" class="btn btn-danger" role="button" data-toggle="popover" data-placement="left" title="작게 들리는 영화 소리" data-content = "영화 보는 것을 좋아하는 것 같다. 영화의 OST가 틀어져있다. (클릭하면 영화 리스트로 이동합니다.)" onclick = "window.open('https://watcha.com/ko-KR/users/RE952mNjgavQ7/analysis')">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div id = "btn-goods">
+				<a id="goods" tabindex="0" class="btn btn-warning" role="button" data-toggle="popover" data-placement="left" title="마구잡이로 쌓여 있는 잡동사니들" data-content = "각종 전시회의 팜플렛과 엽서들이 모아져 있다. 사탕이나 초콜렛 껍데기를 봐서는 단 것을 좋아하는 것 같기도 하다.">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</a>
+			</div>
+			<div id = "btn-charge">
+				<a id="charge" tabindex="0" class="btn btn-warning" role="button" data-toggle="popover" data-placement="left" title="갤럭시용 무선 충선패드" data-content = "삼성 스마트폰을 쓰는 것 같다. 뭘 좀 모르는 것 같다.">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</a>
+			</div>
+		</div>
+	</article>
+	<footer>
+		<h1>
+			노란색 조사 박스에 커서를 올리거나 붉은색 조사 박스를 클릭하여 조사하세요. 일부 환경에서 배경음악이 들리지 않을 시 새로고침 해주십시오.
+		</h1>
+	</footer>
+	<script src="../script/script.js"></script>
+</body>
+</html>

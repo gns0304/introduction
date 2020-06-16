@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel= "stylesheet" type="text/css" href= "stylesheet.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>시작</title>
+</head>
+<body>	
+	<iframe id="player" width="1" height="1" src="https://www.youtube.com/embed/HDyT-msFFCg?controls=0?amp;autoplay=1&amp;loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<header>
+		<h1>받은 편지</h1>
+	</header>
+    
+	<nav>
+		<ul>
+			<li><a href="#">이전 단계로</a></li>
+			<li><a href="#">처음화면으로</a></li>
+			<li><a href="#">마지막화면으로</a></li>
+		</ul>
+	</nav>
+	
+	<article>
+		
+		<div class = "box">
+			<h1>친애하는 귀하</h1>
+			<h2>오늘 저희가 이렇게 실례를 무릅쓰고 편지를 보내게 된 것은 인천의 한 대학가 근처에서 제보가 들어왔기 때문입니다.<br>
+				대학가 후문에 긴 머리카락에 눈이 가려진 모습을 하고 있는 이상한 형태가 으슥한 골목가를 배회한다는 제보였습니다.<br>
+				여러 사람이 이것 때문에 자신의 소지품을 떨어뜨리거나 소스라치게 놀라는 일들이 계속되고 있습니다. 그것은 비닐봉지의 희끗거리를 소리를 내며 주위를 배회하고는 사라진다고 합니다.<br>
+				이러한 존재가 무엇인지 밝혀내기 위해 저희는 귀하께 편지를 보내게 되었고, 아무쪼록 그것의 진실을 밝히어 저희에게 알려주시면 감사하겠습니다.<br>
+				모쪼록 그것을 만남에 있어 주의하시기 바라며, 행운이 함께하길 바라겠습니다.<br><br>
+				P.S. 출처가 분명하지는 않지만 그것에 대한 사진을 입수하게 되었습니다. 카메라의 형태와 비슷한 물건을 사용하고 있는 듯한 사진인데, 편지와 함께 이를 동봉하여 보냅니다.
+			</h2>	
+		</div>
+		
+		<div class = "answer">
+			<h1>조사를 하시겠습니까?</h1>
+			<div class = "buttons">
+				<button id = "popover_btn_yes" type="button" class="btn btn-success" data-toggle="focus" data-placement="left" title="좋은 생각입니다!" data-content="조사를 도와주셔서 다행입니다. 이곳을 눌러 그가 있는 곳으로 이동하세요.">
+					예, 조사해보겠습니다.
+				</button>
+				<button id = "popover_btn_no" type="button" class="btn btn-danger" data-toggle="focus" title="잠시만요!" data-content="다시 한 번 생각해봐주세요. 흥미로운 일이 생길지도 모릅니다.">
+					아니요, 조사하지 않겠습니다.
+				</button>
+			</div>
+		</div>
+	</article>
+	
+	<script src="script/script.js"></script>
+	
+	<footer>
+		<h1>
+			본 사이트는 1920 x 1080 해상도에 최적화 되어 있습니다. 일부 환경에서 배경음악이 들리지 않을 시 새로고침 해주십시오.
+		</h1>
+	</footer>
+
+</body>
+</html>

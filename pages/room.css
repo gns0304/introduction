@@ -1,0 +1,216 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face { font-family: '국립박물관문화재단클래식B'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NEXON Lv1 Gothic OTF Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NEXON Lv1 Gothic OTF'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {margin:0; padding:0; box-sizing: border-box;}
+
+body{
+background-image: url(../img/room.gif);
+background-size: cover;
+background-position: 0 -30px;
+background-repeat: no-repeat;
+
+}
+
+header {
+margin:0; padding:0;
+width: 100%;
+background-color: black;
+height: 50px;
+position: fixed;
+top:0px;
+}
+
+
+
+header h1 {
+margin:0; padding:0;
+color:white;
+font-family: '국립박물관문화재단클래식B';
+text-align: center;
+font-size: 18pt;
+padding-top: 12px;
+}
+
+nav {
+width: 100%;
+margin-top: -12px;
+padding-top: 12px;
+background-color: black;
+height: 40px;
+position: fixed;
+top: 50px;
+}
+
+nav ul {
+background-color: black;
+width: 360px;
+margin : 0 auto;
+}
+
+nav li {
+list-style: none;
+color: white;
+float: left;
+margin-left: 20px;
+}
+
+nav li a {
+font-family: '국립박물관문화재단클래식B';
+color: white;
+text-decoration: none;
+}
+
+nav li a:hover{
+color: white;
+text-decoration: underline;	
+}
+
+nav li a:visited{
+color: white;
+text-decoration: none;
+}
+
+.box {
+padding: 20px;
+width : 1000px;
+margin: 150px auto 0 auto;
+border: 3px solid white;
+}
+
+.box h1 {
+color:white;
+font-family: '국립박물관문화재단클래식B';
+margin: 0px;
+font-size : 18pt;
+margin-bottom: 15px;
+}
+
+.box h2 {
+color:white;
+font-family: '국립박물관문화재단클래식B';
+margin: 0px;
+font-size : 13pt;
+line-height: 22pt
+}
+
+.answer{
+padding: 20px;
+width : 1000px;
+margin: 10px auto 0 auto;
+border: 3px solid white;
+}
+
+.answer h1{color:white; font-size: 16pt;font-family: '국립박물관문화재단클래식B'; text-align: center; margin: 0 0 10px 0;}
+
+.answer #popover_btn, #popover_btn_no {
+	border-radius: 0px;
+}
+
+
+
+footer { position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+	height:45px; 
+  text-align: center;}
+
+footer h1 {color:white; font-size: 12pt;font-family: '국립박물관문화재단클래식B'; text-align: center; margin-top : 15px;}
+
+#myModal h3 {
+	 margin:0px; font-size: 12pt;font-family: '국립박물관문화재단클래식B'; text-align: center; line-height: 18pt;
+}
+
+#myModalQuestion h3{
+	 margin:0px; font-size: 12pt;font-family: '국립박물관문화재단클래식B'; text-align: center; line-height: 18pt;
+}
+
+
+#form-inline{
+	
+	margin-top : 15px;
+	text-align: center;
+}
+
+#wrong_pw{color:#C53531; margin-top : 15px}
+	
+#right_pw {color:#449D44; margin-top : 15px}
+
+#test{text-align : center; margin-top :15px;}
+
+
+.modal-content{background-color: black; color: white; margin-top: 85px; padding:20px;}
+
+#btn-notebook{
+	position:absolute;
+	top: 63%;
+	left : 29%;
+	width:300px;
+	
+}
+
+#btn-book{
+	position:absolute;
+	top: 12%;
+	left : 42%;
+width:300px;
+}
+
+#btn-pad{
+	position:absolute;
+	top: 81%;
+	left : 77%;
+	width:300px;
+}
+
+
+#btn-monitor{
+	position:absolute;
+	top: 53%;
+	left : 58%;
+	width:300px;
+}
+
+#btn-speaker{
+	position:absolute;
+	top: 49%;
+	left : 76%;
+	width:300px;
+}
+
+#btn-goods{
+	position:absolute;
+	top: 12%;
+	left : 76%;
+	width:300px;
+}
+
+#btn-charge{
+	position:absolute;
+	top: 85%;
+	left : 67%;
+	width:300px;
+}
+
+#player {display:none;}
+
+.popover-title{font-family: 'NEXON Lv1 Gothic OTF Bold';}
+
+.popover-content{font-family:'NEXON Lv1 Gothic OTF';}
+
+.progress span {font-family:'국립박물관문화재단클래식B'; font-size : 14px;}
+
+h3 {font-size: 13pt;font-family: '국립박물관문화재단클래식B'; text-align: center;}
+
+#btn a {text-decoration:none; color:white;}
+#btn a:hover {text-decoration:underline; color:white; cursor: pointer;}
+#btn a:visited {text-decoration: none; color:white;}

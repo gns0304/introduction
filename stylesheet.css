@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face { font-family: '국립박물관문화재단클래식B'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NEXON Lv1 Gothic OTF Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+@font-face { font-family: 'NEXON Lv1 Gothic OTF'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+* {margin:0; padding:0; box-sizing: border-box;}
+
+body{
+background-image: url(img/me_dark.gif);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+header {
+margin:0; padding:0;
+width: 100%;
+background-color: black;
+height: 50px;
+position: fixed;
+top:0px;
+}
+
+
+
+header h1 {
+margin:0; padding:0;
+color:white;
+font-family: '국립박물관문화재단클래식B';
+text-align: center;
+font-size: 18pt;
+padding-top: 12px;
+}
+
+footer { position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+	height:45px; 
+  text-align: center;}
+
+footer h1 {color:white; font-size: 12pt;font-family: '국립박물관문화재단클래식B'; text-align: center; margin-top : 15px;}
+
+
+nav {
+width: 100%;
+margin-top: -12px;
+padding-top: 12px;
+background-color: black;
+height: 40px;
+position: fixed;
+top: 50px;
+}
+
+nav ul {
+background-color: black;
+width: 360px;
+margin : 0 auto;
+}
+
+nav li {
+list-style: none;
+color: white;
+float: left;
+margin-left: 20px;
+}
+
+nav li a {
+font-family: '국립박물관문화재단클래식B';
+color: white;
+text-decoration: none;
+}
+
+nav li a:hover{
+color: white;
+text-decoration: underline;	
+}
+
+nav li a:visited{
+color: white;
+text-decoration: none;
+}
+
+.box {
+padding: 20px;
+width : 1000px;
+margin: 130px auto 0 auto;
+border: 3px solid white;
+}
+
+.box h1 {
+color:white;
+font-family: '국립박물관문화재단클래식B';
+margin: 0px;
+font-size : 18pt;
+margin-bottom: 15px;
+}
+
+.box h2 {
+color:white;
+font-family: '국립박물관문화재단클래식B';
+margin: 0px;
+font-size : 13pt;
+line-height: 22pt
+}
+
+.answer{
+padding: 20px;
+width : 1000px;
+margin: 10px auto 0 auto;
+border: 3px solid white;
+}
+
+.answer h1{color:white; font-size: 16pt;font-family: '국립박물관문화재단클래식B'; text-align: center; margin: 0 0 10px 0;}
+
+.answer #popover_btn, #popover_btn_no {
+	border-radius: 0px;
+}
+
+.buttons{
+	width : 390px;
+	margin : 0 auto;
+	
+}
+
+.popover-title{font-family:'NEXON Lv1 Gothic OTF Bold';}
+
+.popover-content{font-family:'NEXON Lv1 Gothic OTF';}
+
+#player{display:none;}
